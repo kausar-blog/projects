@@ -7,6 +7,8 @@ import Slider from './Components/Slider';
 import Video from './Components/Video';
 import Time from './Components/Time';
 import PresentationCTA from './Components/BombArea';
+import Blog from './Components/Blog';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Video />
       <Time />
       <PresentationCTA />
+      <Blog />
+      <Footer />
     </>
   );
 }
