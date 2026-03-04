@@ -2,7 +2,8 @@ import './App.css';
 import React from 'react';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
-import Presentation from './Components/presentation';
+import Presentation from './Components/Presentation';
+import Slider from './Components/Slider';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Presentation />
+      <Slider />
     </>
   );
 }
