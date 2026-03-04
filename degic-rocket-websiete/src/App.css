@@ -13,3 +13,19 @@
 .animate-scroll:hover {
   animation-play-state: paused;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: float 4s ease-in-out infinite;
+}

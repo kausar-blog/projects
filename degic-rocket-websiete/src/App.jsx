@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar';
 import Presentation from './Components/Presentation';
 import Slider from './Components/Slider';
 import Video from './Components/Video';
+import Time from './Components/Time';
+import PresentationCTA from './Components/BombArea';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Presentation />
       <Slider />
       <Video />
+      <Time />
+      <PresentationCTA />
     </>
   );
 }
