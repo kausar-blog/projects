@@ -9,7 +9,8 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-      <div>
+      <Navbar />
+      {/* <div>
         <h1>Hello blogger</h1>
         <Button variant="contained" color="error" size="small">
           Click Me
@@ -27,7 +28,8 @@ function App() {
           <Button variant="contained">Contained</Button>
           <Button variant="outlined">Outlined</Button>
         </Stack>
-      </div>
+       </div>
+       */}
     </>
   );
 }
