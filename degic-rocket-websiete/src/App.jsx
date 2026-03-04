@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 import Presentation from './Components/Presentation';
 import Slider from './Components/Slider';
+import Video from './Components/Video';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Presentation />
       <Slider />
+      <Video />
     </>
   );
 }
